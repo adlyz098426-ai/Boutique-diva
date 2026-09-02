@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --pink: #D81B60;
+    --light-pink: #FCE4EC;
+    --black: #1A1A1A;
+    --gold: #C9A227;
+    --white: #FFFFFF;
+    --luxury-bg: #fdf2f5;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--black);
+    background-color: var(--luxury-bg);
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Luxury & Prestige Theme Utilities */
+.gold-text {
+  color: #C9A227;
+}
+
+.pink-text {
+  color: #D81B60;
+}
+
+.bg-luxury-pink {
+  background-color: #D81B60;
+}
+
+.bg-luxury-light-pink {
+  background-color: #FCE4EC;
+}
+
+.bg-luxury-gold {
+  background-color: #C9A227;
+}
+
+.border-luxury-gold {
+  border-color: rgba(201, 162, 39, 0.4);
+}
+
+.border-luxury-pink {
+  border-color: rgba(216, 27, 96, 0.3);
+}
+
+/* Custom subtle scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(216, 27, 96, 0.25);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(216, 27, 96, 0.5);
+}
+
+/* Luxury phone frame shadow */
+.luxury-iphone-shadow {
+  box-shadow: 0 25px 60px -15px rgba(26, 26, 26, 0.35), 0 10px 30px -10px rgba(216, 27, 96, 0.2), 0 0 0 1px rgba(201, 162, 39, 0.2);
+}
+
+

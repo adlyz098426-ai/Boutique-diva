@@ -1,0 +1,6 @@
+{
+  "name": "Boutique Diva - App Móvil",
+  "description": "Prototipo interactivo de tienda móvil de ropa femenina para iPhone 15 Pro con 6 frames, navegación de alta fidelidad y sistema de componentes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
